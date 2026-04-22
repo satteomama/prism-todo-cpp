@@ -81,3 +81,15 @@ body::before {
 
   animation: shine 5s linear infinite;
 }
+
+/*
+ * Accessibility: when the user has requested reduced motion at the OS level,
+ * freeze the shard float + shine animations. The decorative layer stays
+ * visible but stops moving, which satisfies spec §4.2.8 and risk R-06.
+ */
+@media (prefers-reduced-motion: reduce) {
+  .prism-shard,
+  .prism-shard::after {
+    animation: none !important;
+  }
+}
