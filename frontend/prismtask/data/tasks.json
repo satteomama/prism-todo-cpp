@@ -1,1 +1,902 @@
-[]
+[
+  {
+    "id": 1,
+    "title": "Sample title",
+    "description": "sample description",
+    "priority": "High",
+    "completed": false,
+    "dueDate": "2026-04-22",
+    "createdAt": "2026-04-22T22:38:02.021Z"
+  },
+  {
+    "id": 2,
+    "title": "Title",
+    "description": "sample medium",
+    "priority": "Medium",
+    "completed": false,
+    "dueDate": "2026-04-22",
+    "createdAt": "2026-04-22T22:38:13.652Z"
+  },
+  {
+    "id": 3,
+    "title": "Write quarterly report",
+    "description": "Summarise Q1 metrics and highlight key trends",
+    "priority": "Low",
+    "completed": true,
+    "dueDate": "2026-04-22",
+    "createdAt": "2026-04-22T22:38:14.652Z"
+  },
+  {
+    "id": 4,
+    "title": "Submit expense reimbursement",
+    "description": "Upload receipts from the conference trip",
+    "priority": "High",
+    "completed": false,
+    "dueDate": "2026-04-27",
+    "createdAt": "2026-04-22T23:15:14.652Z"
+  },
+  {
+    "id": 5,
+    "title": "Call the dentist",
+    "description": "Schedule the six-month cleaning",
+    "priority": "Medium",
+    "completed": false,
+    "dueDate": "2026-05-02",
+    "createdAt": "2026-04-22T23:52:14.652Z"
+  },
+  {
+    "id": 6,
+    "title": "Buy groceries",
+    "description": "Milk, eggs, bread, coffee, spinach",
+    "priority": "Low",
+    "completed": true,
+    "dueDate": "2026-05-07",
+    "createdAt": "2026-04-23T00:29:14.652Z"
+  },
+  {
+    "id": 7,
+    "title": "Finish reading the design doc",
+    "description": "Leave comments before tomorrow standup",
+    "priority": "High",
+    "completed": false,
+    "dueDate": "2026-05-12",
+    "createdAt": "2026-04-23T01:06:14.652Z"
+  },
+  {
+    "id": 8,
+    "title": "Review pull request #142",
+    "description": "Front-end refactor of the task list",
+    "priority": "Medium",
+    "completed": false,
+    "dueDate": "2026-05-17",
+    "createdAt": "2026-04-23T01:43:14.652Z"
+  },
+  {
+    "id": 9,
+    "title": "Update LinkedIn profile",
+    "description": "Add the latest project and refresh the headline",
+    "priority": "Low",
+    "completed": true,
+    "dueDate": "2026-05-22",
+    "createdAt": "2026-04-23T02:20:14.652Z"
+  },
+  {
+    "id": 10,
+    "title": "Pay credit card bill",
+    "description": "Statement closes Friday",
+    "priority": "High",
+    "completed": false,
+    "dueDate": "2026-05-27",
+    "createdAt": "2026-04-23T02:57:14.652Z"
+  },
+  {
+    "id": 11,
+    "title": "Renew car registration",
+    "description": "Expires end of month",
+    "priority": "Medium",
+    "completed": false,
+    "dueDate": "2026-06-01",
+    "createdAt": "2026-04-23T03:34:14.652Z"
+  },
+  {
+    "id": 12,
+    "title": "Book flights for spring break",
+    "description": "Compare prices across two airlines",
+    "priority": "Low",
+    "completed": true,
+    "dueDate": "2026-06-06",
+    "createdAt": "2026-04-23T04:11:14.652Z"
+  },
+  {
+    "id": 13,
+    "title": "Reply to grandma’s email",
+    "description": "She sent photos from the family reunion",
+    "priority": "High",
+    "completed": false,
+    "dueDate": "2026-06-11",
+    "createdAt": "2026-04-23T04:48:14.652Z"
+  },
+  {
+    "id": 14,
+    "title": "Schedule annual physical",
+    "description": "Doctor recommended a follow-up",
+    "priority": "Medium",
+    "completed": false,
+    "dueDate": "2026-06-16",
+    "createdAt": "2026-04-23T05:25:14.652Z"
+  },
+  {
+    "id": 15,
+    "title": "Clean out the garage",
+    "description": "Donate anything not used in two years",
+    "priority": "Low",
+    "completed": true,
+    "dueDate": "2026-06-21",
+    "createdAt": "2026-04-23T06:02:14.652Z"
+  },
+  {
+    "id": 16,
+    "title": "Refactor the auth module",
+    "description": "Extract the cookie helper into lib/",
+    "priority": "High",
+    "completed": false,
+    "dueDate": "2026-06-26",
+    "createdAt": "2026-04-23T06:39:14.652Z"
+  },
+  {
+    "id": 17,
+    "title": "Fix the failing CI build",
+    "description": "Lint errors on the shard component",
+    "priority": "Medium",
+    "completed": false,
+    "dueDate": "2026-04-22",
+    "createdAt": "2026-04-23T07:16:14.652Z"
+  },
+  {
+    "id": 18,
+    "title": "Plan birthday dinner",
+    "description": "Reserve a table for six on Saturday",
+    "priority": "Low",
+    "completed": true,
+    "dueDate": "2026-04-27",
+    "createdAt": "2026-04-23T07:53:14.652Z"
+  },
+  {
+    "id": 19,
+    "title": "Submit timesheet",
+    "description": "Due every Friday at 5 pm",
+    "priority": "High",
+    "completed": false,
+    "dueDate": "2026-05-02",
+    "createdAt": "2026-04-23T08:30:14.652Z"
+  },
+  {
+    "id": 20,
+    "title": "Order new laptop charger",
+    "description": "Old one frayed at the cable end",
+    "priority": "Medium",
+    "completed": false,
+    "dueDate": "2026-05-07",
+    "createdAt": "2026-04-23T09:07:14.652Z"
+  },
+  {
+    "id": 21,
+    "title": "Update password manager",
+    "description": "Rotate the email and bank passwords",
+    "priority": "Low",
+    "completed": true,
+    "dueDate": "2026-05-12",
+    "createdAt": "2026-04-23T09:44:14.652Z"
+  },
+  {
+    "id": 22,
+    "title": "Backup external drive",
+    "description": "Run rsync to the network drive",
+    "priority": "High",
+    "completed": false,
+    "dueDate": "2026-05-17",
+    "createdAt": "2026-04-23T10:21:14.652Z"
+  },
+  {
+    "id": 23,
+    "title": "Pick up dry cleaning",
+    "description": "Two shirts and the navy blazer",
+    "priority": "Medium",
+    "completed": false,
+    "dueDate": "2026-05-22",
+    "createdAt": "2026-04-23T10:58:14.652Z"
+  },
+  {
+    "id": 24,
+    "title": "Renew gym membership",
+    "description": "Lapses on the first of next month",
+    "priority": "Low",
+    "completed": true,
+    "dueDate": "2026-05-27",
+    "createdAt": "2026-04-23T11:35:14.652Z"
+  },
+  {
+    "id": 25,
+    "title": "Draft cover letter",
+    "description": "For the senior front-end role",
+    "priority": "High",
+    "completed": false,
+    "dueDate": "2026-06-01",
+    "createdAt": "2026-04-23T12:12:14.652Z"
+  },
+  {
+    "id": 26,
+    "title": "Practice guitar",
+    "description": "Work through the new chord progression",
+    "priority": "Medium",
+    "completed": false,
+    "dueDate": "2026-06-06",
+    "createdAt": "2026-04-23T12:49:14.652Z"
+  },
+  {
+    "id": 27,
+    "title": "Water the plants",
+    "description": "Especially the fiddle-leaf fig",
+    "priority": "Low",
+    "completed": true,
+    "dueDate": "2026-06-11",
+    "createdAt": "2026-04-23T13:26:14.652Z"
+  },
+  {
+    "id": 28,
+    "title": "Email professor",
+    "description": "Ask about the makeup exam policy",
+    "priority": "High",
+    "completed": false,
+    "dueDate": "2026-06-16",
+    "createdAt": "2026-04-23T14:03:14.652Z"
+  },
+  {
+    "id": 29,
+    "title": "Submit final project",
+    "description": "Push the report and zip the source",
+    "priority": "Medium",
+    "completed": false,
+    "dueDate": "2026-06-21",
+    "createdAt": "2026-04-23T14:40:14.652Z"
+  },
+  {
+    "id": 30,
+    "title": "Update resume",
+    "description": "Add the PrismTask project bullet",
+    "priority": "Low",
+    "completed": true,
+    "dueDate": "2026-06-26",
+    "createdAt": "2026-04-23T15:17:14.652Z"
+  },
+  {
+    "id": 31,
+    "title": "Mail birthday card",
+    "description": "Drop off at the post office tomorrow",
+    "priority": "High",
+    "completed": false,
+    "dueDate": "2026-04-22",
+    "createdAt": "2026-04-23T15:54:14.652Z"
+  },
+  {
+    "id": 32,
+    "title": "Fix leaky faucet",
+    "description": "Bathroom sink, drips overnight",
+    "priority": "Medium",
+    "completed": false,
+    "dueDate": "2026-04-27",
+    "createdAt": "2026-04-23T16:31:14.652Z"
+  },
+  {
+    "id": 33,
+    "title": "Cancel free trial",
+    "description": "Streaming service renews on Sunday",
+    "priority": "Low",
+    "completed": true,
+    "dueDate": "2026-05-02",
+    "createdAt": "2026-04-23T17:08:14.652Z"
+  },
+  {
+    "id": 34,
+    "title": "Take dog to the vet",
+    "description": "Annual shots and a nail trim",
+    "priority": "High",
+    "completed": false,
+    "dueDate": "2026-05-07",
+    "createdAt": "2026-04-23T17:45:14.652Z"
+  },
+  {
+    "id": 35,
+    "title": "Organize photo library",
+    "description": "Tag the trip photos from last summer",
+    "priority": "Medium",
+    "completed": false,
+    "dueDate": "2026-05-12",
+    "createdAt": "2026-04-23T18:22:14.652Z"
+  },
+  {
+    "id": 36,
+    "title": "Read chapter 7",
+    "description": "For Wednesday’s book club",
+    "priority": "Low",
+    "completed": true,
+    "dueDate": "2026-05-17",
+    "createdAt": "2026-04-23T18:59:14.652Z"
+  },
+  {
+    "id": 37,
+    "title": "Rotate the tires",
+    "description": "Schedule at the shop on Main St.",
+    "priority": "High",
+    "completed": false,
+    "dueDate": "2026-05-22",
+    "createdAt": "2026-04-23T19:36:14.652Z"
+  },
+  {
+    "id": 38,
+    "title": "Restock pantry",
+    "description": "Rice, pasta, canned tomatoes",
+    "priority": "Medium",
+    "completed": false,
+    "dueDate": "2026-05-27",
+    "createdAt": "2026-04-23T20:13:14.652Z"
+  },
+  {
+    "id": 39,
+    "title": "Write unit tests for taskStore",
+    "description": "Cover readTasks, writeTasks, nextId",
+    "priority": "Low",
+    "completed": true,
+    "dueDate": "2026-06-01",
+    "createdAt": "2026-04-23T20:50:14.652Z"
+  },
+  {
+    "id": 40,
+    "title": "Audit dependencies",
+    "description": "Check for known CVEs with npm audit",
+    "priority": "High",
+    "completed": false,
+    "dueDate": "2026-06-06",
+    "createdAt": "2026-04-23T21:27:14.652Z"
+  },
+  {
+    "id": 41,
+    "title": "Plan team retro",
+    "description": "Pick three discussion prompts",
+    "priority": "Medium",
+    "completed": false,
+    "dueDate": "2026-06-11",
+    "createdAt": "2026-04-23T22:04:14.652Z"
+  },
+  {
+    "id": 42,
+    "title": "Send invoice to client",
+    "description": "For March consulting hours",
+    "priority": "Low",
+    "completed": true,
+    "dueDate": "2026-06-16",
+    "createdAt": "2026-04-23T22:41:14.652Z"
+  },
+  {
+    "id": 43,
+    "title": "Confirm hotel reservation",
+    "description": "Conference is two weeks out",
+    "priority": "High",
+    "completed": false,
+    "dueDate": "2026-06-21",
+    "createdAt": "2026-04-23T23:18:14.652Z"
+  },
+  {
+    "id": 44,
+    "title": "Buy parents anniversary gift",
+    "description": "Frame the photo from their wedding",
+    "priority": "Medium",
+    "completed": false,
+    "dueDate": "2026-06-26",
+    "createdAt": "2026-04-23T23:55:14.652Z"
+  },
+  {
+    "id": 45,
+    "title": "Replace smoke detector batteries",
+    "description": "Both upstairs hallway units",
+    "priority": "Low",
+    "completed": true,
+    "dueDate": "2026-04-22",
+    "createdAt": "2026-04-24T00:32:14.652Z"
+  },
+  {
+    "id": 46,
+    "title": "Donate old clothes",
+    "description": "Bag in the closet, drop at Goodwill",
+    "priority": "High",
+    "completed": false,
+    "dueDate": "2026-04-27",
+    "createdAt": "2026-04-24T01:09:14.652Z"
+  },
+  {
+    "id": 47,
+    "title": "Defrost the freezer",
+    "description": "Has not been done in over a year",
+    "priority": "Medium",
+    "completed": false,
+    "dueDate": "2026-05-02",
+    "createdAt": "2026-04-24T01:46:14.652Z"
+  },
+  {
+    "id": 48,
+    "title": "Set up new monitor",
+    "description": "Calibrate colour and adjust the arm",
+    "priority": "Low",
+    "completed": true,
+    "dueDate": "2026-05-07",
+    "createdAt": "2026-04-24T02:23:14.652Z"
+  },
+  {
+    "id": 49,
+    "title": "Draft blog post",
+    "description": "How we chose Next.js over plain Express",
+    "priority": "High",
+    "completed": false,
+    "dueDate": "2026-05-12",
+    "createdAt": "2026-04-24T03:00:14.652Z"
+  },
+  {
+    "id": 50,
+    "title": "Review insurance policy",
+    "description": "Coverage seems lower than competitors",
+    "priority": "Medium",
+    "completed": false,
+    "dueDate": "2026-05-17",
+    "createdAt": "2026-04-24T03:37:14.652Z"
+  },
+  {
+    "id": 51,
+    "title": "Book oil change",
+    "description": "Due in the next 500 miles",
+    "priority": "Low",
+    "completed": true,
+    "dueDate": "2026-05-22",
+    "createdAt": "2026-04-24T04:14:14.652Z"
+  },
+  {
+    "id": 52,
+    "title": "Sign lease renewal",
+    "description": "Landlord needs a reply by the 15th",
+    "priority": "High",
+    "completed": false,
+    "dueDate": "2026-05-27",
+    "createdAt": "2026-04-24T04:51:14.652Z"
+  },
+  {
+    "id": 53,
+    "title": "Send thank-you note",
+    "description": "For last week’s referral",
+    "priority": "Medium",
+    "completed": false,
+    "dueDate": "2026-06-01",
+    "createdAt": "2026-04-24T05:28:14.652Z"
+  },
+  {
+    "id": 54,
+    "title": "Upgrade Node.js locally",
+    "description": "LTS bumped to 22 last month",
+    "priority": "Low",
+    "completed": true,
+    "dueDate": "2026-06-06",
+    "createdAt": "2026-04-24T06:05:14.652Z"
+  },
+  {
+    "id": 55,
+    "title": "Migrate JSON store to SQLite",
+    "description": "See spec R-03 mitigation plan",
+    "priority": "High",
+    "completed": false,
+    "dueDate": "2026-06-11",
+    "createdAt": "2026-04-24T06:42:14.652Z"
+  },
+  {
+    "id": 56,
+    "title": "Add Playwright E2E tests",
+    "description": "Cover the full login → CRUD path",
+    "priority": "Medium",
+    "completed": false,
+    "dueDate": "2026-06-16",
+    "createdAt": "2026-04-24T07:19:14.652Z"
+  },
+  {
+    "id": 57,
+    "title": "Document deployment steps",
+    "description": "Wiki page for the staging environment",
+    "priority": "Low",
+    "completed": true,
+    "dueDate": "2026-06-21",
+    "createdAt": "2026-04-24T07:56:14.652Z"
+  },
+  {
+    "id": 58,
+    "title": "Triage open issues",
+    "description": "Close anything stale for 90+ days",
+    "priority": "High",
+    "completed": false,
+    "dueDate": "2026-06-26",
+    "createdAt": "2026-04-24T08:33:14.652Z"
+  },
+  {
+    "id": 59,
+    "title": "Review accessibility audit",
+    "description": "Address the contrast warnings",
+    "priority": "Medium",
+    "completed": false,
+    "dueDate": "2026-04-22",
+    "createdAt": "2026-04-24T09:10:14.652Z"
+  },
+  {
+    "id": 60,
+    "title": "Fix the navigation bug on iPad",
+    "description": "Tap target overlaps the header",
+    "priority": "Low",
+    "completed": true,
+    "dueDate": "2026-04-27",
+    "createdAt": "2026-04-24T09:47:14.652Z"
+  },
+  {
+    "id": 61,
+    "title": "Pick up prescription",
+    "description": "Pharmacy closes at 7 pm",
+    "priority": "High",
+    "completed": false,
+    "dueDate": "2026-05-02",
+    "createdAt": "2026-04-24T10:24:14.652Z"
+  },
+  {
+    "id": 62,
+    "title": "Schedule code review",
+    "description": "Block 30 minutes with Matthew",
+    "priority": "Medium",
+    "completed": false,
+    "dueDate": "2026-05-07",
+    "createdAt": "2026-04-24T11:01:14.652Z"
+  },
+  {
+    "id": 63,
+    "title": "Prep slides for demo",
+    "description": "Five-minute walkthrough for stakeholders",
+    "priority": "Low",
+    "completed": true,
+    "dueDate": "2026-05-12",
+    "createdAt": "2026-04-24T11:38:14.652Z"
+  },
+  {
+    "id": 64,
+    "title": "Update onboarding doc",
+    "description": "New section on the auth helper",
+    "priority": "High",
+    "completed": false,
+    "dueDate": "2026-05-17",
+    "createdAt": "2026-04-24T12:15:14.652Z"
+  },
+  {
+    "id": 65,
+    "title": "Empty dishwasher",
+    "description": "Quick chore before dinner",
+    "priority": "Medium",
+    "completed": false,
+    "dueDate": "2026-05-22",
+    "createdAt": "2026-04-24T12:52:14.652Z"
+  },
+  {
+    "id": 66,
+    "title": "Stretch for 10 minutes",
+    "description": "Hip flexors and hamstrings",
+    "priority": "Low",
+    "completed": true,
+    "dueDate": "2026-05-27",
+    "createdAt": "2026-04-24T13:29:14.652Z"
+  },
+  {
+    "id": 67,
+    "title": "Meditate",
+    "description": "Five minutes, before logging in",
+    "priority": "High",
+    "completed": false,
+    "dueDate": "2026-06-01",
+    "createdAt": "2026-04-24T14:06:14.652Z"
+  },
+  {
+    "id": 68,
+    "title": "Review monthly budget",
+    "description": "Categorise last month’s spending",
+    "priority": "Medium",
+    "completed": false,
+    "dueDate": "2026-06-06",
+    "createdAt": "2026-04-24T14:43:14.652Z"
+  },
+  {
+    "id": 69,
+    "title": "Update emergency contacts",
+    "description": "Both at work and on the phone",
+    "priority": "Low",
+    "completed": true,
+    "dueDate": "2026-06-11",
+    "createdAt": "2026-04-24T15:20:14.652Z"
+  },
+  {
+    "id": 70,
+    "title": "Sign up for tax workshop",
+    "description": "Free session at the library",
+    "priority": "High",
+    "completed": false,
+    "dueDate": "2026-06-16",
+    "createdAt": "2026-04-24T15:57:14.652Z"
+  },
+  {
+    "id": 71,
+    "title": "Send meeting notes",
+    "description": "Recap and action items from this morning",
+    "priority": "Medium",
+    "completed": false,
+    "dueDate": "2026-06-21",
+    "createdAt": "2026-04-24T16:34:14.652Z"
+  },
+  {
+    "id": 72,
+    "title": "Order printer ink",
+    "description": "Black cartridge is nearly empty",
+    "priority": "Low",
+    "completed": true,
+    "dueDate": "2026-06-26",
+    "createdAt": "2026-04-24T17:11:14.652Z"
+  },
+  {
+    "id": 73,
+    "title": "Schedule eye exam",
+    "description": "Glasses prescription is two years old",
+    "priority": "High",
+    "completed": false,
+    "dueDate": "2026-04-22",
+    "createdAt": "2026-04-24T17:48:14.652Z"
+  },
+  {
+    "id": 74,
+    "title": "Replace HVAC filter",
+    "description": "Marked the furnace last quarter",
+    "priority": "Medium",
+    "completed": false,
+    "dueDate": "2026-04-27",
+    "createdAt": "2026-04-24T18:25:14.652Z"
+  },
+  {
+    "id": 75,
+    "title": "Sweep the front porch",
+    "description": "Leaves piling up after the storm",
+    "priority": "Low",
+    "completed": true,
+    "dueDate": "2026-05-02",
+    "createdAt": "2026-04-24T19:02:14.652Z"
+  },
+  {
+    "id": 76,
+    "title": "Charge the spare battery pack",
+    "description": "For the weekend hike",
+    "priority": "High",
+    "completed": false,
+    "dueDate": "2026-05-07",
+    "createdAt": "2026-04-24T19:39:14.652Z"
+  },
+  {
+    "id": 77,
+    "title": "Trim the hedges",
+    "description": "Front yard, before they take over the path",
+    "priority": "Medium",
+    "completed": false,
+    "dueDate": "2026-05-12",
+    "createdAt": "2026-04-24T20:16:14.652Z"
+  },
+  {
+    "id": 78,
+    "title": "Sharpen kitchen knives",
+    "description": "Set has gotten dull from daily use",
+    "priority": "Low",
+    "completed": true,
+    "dueDate": "2026-05-17",
+    "createdAt": "2026-04-24T20:53:14.652Z"
+  },
+  {
+    "id": 79,
+    "title": "Update browser bookmarks",
+    "description": "Sort into folders by project",
+    "priority": "High",
+    "completed": false,
+    "dueDate": "2026-05-22",
+    "createdAt": "2026-04-24T21:30:14.652Z"
+  },
+  {
+    "id": 80,
+    "title": "Cancel old subscriptions",
+    "description": "Three streaming services unused for months",
+    "priority": "Medium",
+    "completed": false,
+    "dueDate": "2026-05-27",
+    "createdAt": "2026-04-24T22:07:14.652Z"
+  },
+  {
+    "id": 81,
+    "title": "Buy stamps",
+    "description": "Need them for the wedding RSVPs",
+    "priority": "Low",
+    "completed": true,
+    "dueDate": "2026-06-01",
+    "createdAt": "2026-04-24T22:44:14.652Z"
+  },
+  {
+    "id": 82,
+    "title": "Replace shower curtain",
+    "description": "Mildew, time for a new one",
+    "priority": "High",
+    "completed": false,
+    "dueDate": "2026-06-06",
+    "createdAt": "2026-04-24T23:21:14.652Z"
+  },
+  {
+    "id": 83,
+    "title": "Repair the bike tire",
+    "description": "Slow leak in the rear, patch or tube",
+    "priority": "Medium",
+    "completed": false,
+    "dueDate": "2026-06-11",
+    "createdAt": "2026-04-24T23:58:14.652Z"
+  },
+  {
+    "id": 84,
+    "title": "Wash the car",
+    "description": "Hand-wash plus a quick interior vacuum",
+    "priority": "Low",
+    "completed": true,
+    "dueDate": "2026-06-16",
+    "createdAt": "2026-04-25T00:35:14.652Z"
+  },
+  {
+    "id": 85,
+    "title": "Test the new feature flag",
+    "description": "Toggle in staging and verify telemetry",
+    "priority": "High",
+    "completed": false,
+    "dueDate": "2026-06-21",
+    "createdAt": "2026-04-25T01:12:14.652Z"
+  },
+  {
+    "id": 86,
+    "title": "Schedule the interview panel",
+    "description": "Three slots next week, send invites",
+    "priority": "Medium",
+    "completed": false,
+    "dueDate": "2026-06-26",
+    "createdAt": "2026-04-25T01:49:14.652Z"
+  },
+  {
+    "id": 87,
+    "title": "Write release notes",
+    "description": "Bullet the user-visible changes for v0.2",
+    "priority": "Low",
+    "completed": true,
+    "dueDate": "2026-04-22",
+    "createdAt": "2026-04-25T02:26:14.652Z"
+  },
+  {
+    "id": 88,
+    "title": "Update README badges",
+    "description": "CI, license, latest release",
+    "priority": "High",
+    "completed": false,
+    "dueDate": "2026-04-27",
+    "createdAt": "2026-04-25T03:03:14.652Z"
+  },
+  {
+    "id": 89,
+    "title": "Tag v0.1.0",
+    "description": "Cut the first official release",
+    "priority": "Medium",
+    "completed": false,
+    "dueDate": "2026-05-02",
+    "createdAt": "2026-04-25T03:40:14.652Z"
+  },
+  {
+    "id": 90,
+    "title": "Move data folder to volume",
+    "description": "Mitigation for risk R-04",
+    "priority": "Low",
+    "completed": true,
+    "dueDate": "2026-05-07",
+    "createdAt": "2026-04-25T04:17:14.652Z"
+  },
+  {
+    "id": 91,
+    "title": "Add bcrypt password hashing",
+    "description": "Highest-priority security follow-up (R-01)",
+    "priority": "High",
+    "completed": false,
+    "dueDate": "2026-05-12",
+    "createdAt": "2026-04-25T04:54:14.652Z"
+  },
+  {
+    "id": 92,
+    "title": "Add CSRF token to mutating routes",
+    "description": "Round out the SameSite=Lax cookie",
+    "priority": "Medium",
+    "completed": false,
+    "dueDate": "2026-05-17",
+    "createdAt": "2026-04-25T05:31:14.652Z"
+  },
+  {
+    "id": 93,
+    "title": "Profile shard animation FPS",
+    "description": "Verify 50 fps target on a low-end laptop",
+    "priority": "Low",
+    "completed": true,
+    "dueDate": "2026-05-22",
+    "createdAt": "2026-04-25T06:08:14.652Z"
+  },
+  {
+    "id": 94,
+    "title": "Run axe-core across all pages",
+    "description": "WCAG AA pass for the accessibility report",
+    "priority": "High",
+    "completed": false,
+    "dueDate": "2026-05-27",
+    "createdAt": "2026-04-25T06:45:14.652Z"
+  },
+  {
+    "id": 95,
+    "title": "Investigate slow API on cold start",
+    "description": "First request after deploy takes 1.5 s",
+    "priority": "Medium",
+    "completed": false,
+    "dueDate": "2026-06-01",
+    "createdAt": "2026-04-25T07:22:14.652Z"
+  },
+  {
+    "id": 96,
+    "title": "Reorganise lib/ helpers",
+    "description": "Group by concern, not file size",
+    "priority": "Low",
+    "completed": true,
+    "dueDate": "2026-06-06",
+    "createdAt": "2026-04-25T07:59:14.652Z"
+  },
+  {
+    "id": 97,
+    "title": "Add cursor-based pagination",
+    "description": "Listing endpoint will need it past 1k tasks",
+    "priority": "High",
+    "completed": false,
+    "dueDate": "2026-06-11",
+    "createdAt": "2026-04-25T08:36:14.652Z"
+  },
+  {
+    "id": 98,
+    "title": "Email the TA",
+    "description": "Confirm submission format for the report",
+    "priority": "Medium",
+    "completed": false,
+    "dueDate": "2026-06-16",
+    "createdAt": "2026-04-25T09:13:14.652Z"
+  },
+  {
+    "id": 99,
+    "title": "Print boarding pass",
+    "description": "Flight is at 6 am, no time in the morning",
+    "priority": "Low",
+    "completed": true,
+    "dueDate": "2026-06-21",
+    "createdAt": "2026-04-25T09:50:14.652Z"
+  },
+  {
+    "id": 100,
+    "title": "Restart the home router",
+    "description": "Wi-Fi has been flaky all week",
+    "priority": "High",
+    "completed": false,
+    "dueDate": "2026-06-26",
+    "createdAt": "2026-04-25T10:27:14.652Z"
+  }
+]

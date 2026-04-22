@@ -19,6 +19,10 @@ body::before {
               radial-gradient(circle at 70% 60%, rgba(0,200,255,0.15), transparent 40%),
               radial-gradient(circle at 50% 80%, rgba(0,255,150,0.15), transparent 40%);
   z-index: 0;
+  /* Decorative only — never intercept clicks. Without this, on pages whose
+   * root element lacks its own stacking context (e.g. the tasks page), this
+   * fixed overlay sits on top of content and swallows every click. */
+  pointer-events: none;
 }
 
 @keyframes float {
