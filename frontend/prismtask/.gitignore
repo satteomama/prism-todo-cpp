@@ -20,6 +20,10 @@
 # production
 /build
 
+# Local JSON persistence (spec §4.1 R-04 — user data is not committed)
+/data/*.json
+!/data/.gitkeep
+
 # misc
 .DS_Store
 *.pem
@@ -32,6 +36,7 @@ yarn-error.log*
 
 # env files (can opt-in for committing if needed)
 .env*
+!.env.example
 
 # vercel
 .vercel
